@@ -1,0 +1,35 @@
+coding challenge
+    Tuple, Immutable vs Mutable, List Creation
+Project Title: Retail Inventory Manager
+Scenario:
+    You are managing an inventory system for a retail shop. Certain product categories are fixed, but the actual products can be added or removed by the staff.
+Tasks:
+  Create a tuple with fixed product categories like Electronics, Stationery, and Clothing.
+  Create a list of products that can be updated dynamically.
+  Ask the user to enter a new product and add it to the list.
+  Ask the user to input the index of a product to remove it from the list.
+  Display the final list of products and the product categories.
+Step 1: Create Tuple for each student (immutable personal info)
+  Student1 = ("Ram", 1, "M.A")
+  Student2 = ("Kumar", 2, "B.A")
+  Student3 = ("Darlo", 3, "B.E")
+
+Step 2: Create 1D List for marks of each student
+  marks1 = [100,  40, 60]
+  marks2 = [80, 100, 90]
+  marks3= [95, 78, 75]
+Step 3: Combine all marks into a 2D List
+Step 4: Combine all batches (3D List - two different batches)
+    batch 1 = [marks1, marks2,marks3]
+    All batches= [batch 1,batch2]
+Step 5: Display formatted data
+
+print("Marks1",marks1)
+print("Marks2",marks2)
+print("Marks3",marks3)
+
+print("------2d------")
+print("2d list",Batch1)
+
+print("-------3d--------")
+print("3d list", all batches )
