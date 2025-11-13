@@ -1,0 +1,18 @@
+Project Title: Secret Message Decoder
+Scenario:
+  You’re building a Secret Message Decoder that helps a team decode hidden messages sent in plain text. The messages have mixed characters, spaces, and random numbers inserted to confuse readers. Your program should clean, transform, and analyze the text — without using in, if, or for.
+Tasks:
+  Ask the user to input a secret message.
+  Use len() and string methods (like .isalpha() ,lower(),upper()).
+  Convert the entire message to uppercase.
+  Replace all spaces with underscores.
+  Show only every 3rd character of the message.
+  Use slicing: message[::3]
+  Reverse the message and display it.
+Enter your secret message: (  ḥai and hello  )  
+
+--- Secret Message Decoder ---
+Original Message Length: 13
+Uppercase & Cleaned Message: HAI_AND_HELLO
+Every 4rd Character: HAHO
+Reversed Message: OLLEH_DNA_IAH
